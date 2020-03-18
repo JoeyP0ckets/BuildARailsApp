@@ -1,0 +1,8 @@
+<h2>Your Director Is...</h2>
+<%= @director.name %><br>
+<%= @director.age %><br>
+
+<h3>Director's Genres</h3>
+<% @director.genres.each do |genre| %>
+    <%= genre.name %>
+<%end%>
